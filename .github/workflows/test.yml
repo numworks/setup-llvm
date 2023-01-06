@@ -1,0 +1,14 @@
+name: "test"
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: ./
+    - run: ${LLVM_PATH}/bin/clang-tidy --version
+    - run: clang++ --version

@@ -1,0 +1,9 @@
+name: 'Setup LLVM'
+description: 'Setup LLVM.'
+author: 'NumWorks'
+inputs:
+  add-path:
+    default: true
+runs:
+  using: 'node16'
+  main: 'index.js'

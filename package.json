@@ -1,0 +1,26 @@
+{
+  "name": "setup-llvm",
+  "version": "1.0.0",
+  "description": "LLVM GitHub action",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/numworks/setup-llvm.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Actions",
+    "LLVM",
+    "Clang"
+  ],
+  "author": "NumWorks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/numworks/setup-llvm/issues"
+  },
+  "homepage": "https://github.com/numworks/setup-llvm",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/tool-cache": "^2.0.1"
+  }
+}
