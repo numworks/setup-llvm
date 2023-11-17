@@ -1,12 +1,12 @@
-# Setup Arm toolchain
+# Setup LLVM toolchain
 
-This is a GitHub action to setup an Arm GNU toolchain.
+This is a GitHub action to setup an LLVM toolchain.
 
 In actions.yml:
 
 ```
 steps:
-  - uses: numworks/setup-arm-toolchain@latest
+  - uses: numworks/setup-llvm@latest
 ```
 
 ## How to update this action
