@@ -1,6 +1,6 @@
 # Setup LLVM toolchain
 
-This is a GitHub action to setup an LLVM toolchain.
+This is a GitHub action to setup LLVM toolchain.
 
 In actions.yml:
 
